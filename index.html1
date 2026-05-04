@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Starhela Agencies Global Portals</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        * { -webkit-user-select: none; user-select: none; box-sizing: border-box; }
+        body { background-color: #f4f7f6; color: #2c3e50; font-family: 'Inter', system-ui, -apple-system, sans-serif; line-height: 1.7; padding: 20px; }
+        .container-slim { max-width: 850px; margin: 0 auto; background: #fff; padding: 40px; border-radius: 20px; box-shadow: 0 4px 25px rgba(0,0,0,0.05); }
+        
+        h2 { color: #111; font-weight: 900; margin-top: 45px; margin-bottom: 20px; font-size: 1.5rem; text-transform: uppercase; letter-spacing: -0.5px; }
+        p { margin-bottom: 25px; font-size: 1.05rem; color: #4a5568; }
+
+        /* MULTI-COUNTRY BUTTON GRID */
+        .country-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px; margin: 30px 0;
+        }
+        .country-card {
+            background: #1a202c; color: #fff; padding: 25px; border-radius: 15px;
+            display: flex; flex-direction: column; gap: 10px; border: 1px solid #2d3748;
+        }
+        .country-card h3 { font-size: 1.1rem; color: #ffcc00; font-weight: 800; margin-bottom: 10px; border-bottom: 1px solid #4a5568; padding-bottom: 10px; }
+        
+        .action-link {
+            padding: 14px; border-radius: 8px; text-decoration: none !important; text-align: center; 
+            font-weight: 800; font-size: 0.8rem; transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            text-transform: uppercase;
+        }
+        .btn-gold { background: #ffcc00; color: #000; }
+        .btn-outline { background: transparent; color: #fff; border: 1px solid #4a5568; }
+        .btn-wa { background: #25d366; color: #fff; }
+        
+        .action-link:hover { transform: scale(1.03); filter: brightness(1.1); }
+
+        /* LIVE STATUS NOTIFICATION */
+        #status-bar {
+            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+            background: #2d3748; color: #fff; padding: 12px 25px; border-radius: 50px;
+            font-size: 0.85rem; z-index: 1000; display: none; box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-slim">
+
+    <h2>Starhela Agencies Kenya (KSH)</h2>
+    <p>Operating through M-Pesa, Starhela Kenya offers the most seamless integration for local earners. With a one-time activation fee of KSH 550, users unlock a 3-level affiliate system and daily video tasks. Withdrawals are instant and available 24/7, making it the top choice for digital workers in Nairobi, Mombasa, and beyond.</p>
+    
+    <div class="country-grid">
+        <div class="country-card">
+            <h3>KENYA PORTAL</h3>
+            <a href="https://starhela.com/register.php?ref=LACER" class="action-link btn-gold"><i class="fas fa-id-card"></i> REGISTER KENYA</a>
+            <a href="http://www.appcreator24.com/app3252066-0nctaw" class="action-link btn-outline"><i class="fab fa-android"></i> KENYA APP</a>
+            <a href="https://whatsapp.com/channel/0029Vb7f9n4LSmbiyVG6cc3h" class="action-link btn-wa"><i class="fab fa-whatsapp"></i> KENYA UPDATES</a>
+        </div>
+    </div>
+
+    <h2>Starhela Agencies Uganda (UGX)</h2>
+    <p>The Pearl of Africa has seen a massive surge in Starhela users. With activation at UGX 19,500 and a welcome bonus of UGX 9,000, it provides an immediate return on investment. Uganda members enjoy specialized trivia and local MTN/Airtel Money withdrawals that process in under 10 minutes.</p>
+
+    <div class="country-grid">
+        <div class="country-card">
+            <h3>UGANDA PORTAL</h3>
+            <a href="https://starhela.com/register.php?ref=LACER" class="action-link btn-gold"><i class="fas fa-user-plus"></i> REGISTER UGANDA</a>
+            <a href="http://www.appcreator24.com/app3252066-0nctaw" class="action-link btn-outline"><i class="fas fa-mobile-alt"></i> UGANDA APP</a>
+            <a href="https://whatsapp.com/channel/0029Vb7f9n4LSmbiyVG6cc3h" class="action-link btn-wa"><i class="fab fa-whatsapp"></i> UGANDA SUPPORT</a>
+        </div>
+    </div>
+
+    <h2>Starhela Agencies Tanzania (TSH)</h2>
+    <p>Tanzanian members utilize the platform through Vodacom M-Pesa and Tigo Pesa. The activation fee of TSH 11,000 unlocks all premium features, including YouTube rewards and automated spins. It is currently one of the fastest-growing online earning agencies in the Swahili-speaking region.</p>
+
+    <div class="country-grid">
+        <div class="country-card">
+            <h3>TANZANIA PORTAL</h3>
+            <a href="https://starhela.com/register.php?ref=LACER" class="action-link btn-gold"><i class="fas fa-sign-in-alt"></i> JISAJILI TANZANIA</a>
+            <a href="http://www.appcreator24.com/app3252066-0nctaw" class="action-link btn-outline"><i class="fas fa-download"></i> APP YA TANZANIA</a>
+            <a href="https://whatsapp.com/channel/0029Vb7f9n4LSmbiyVG6cc3h" class="action-link btn-wa"><i class="fab fa-whatsapp"></i> TANZANIA CHANNEL</a>
+        </div>
+    </div>
+
+    <h2>Global & Nigeria Access</h2>
+    <p>Starhela Agencies extends its reach to Nigeria and the rest of the world using localized payment gateways. With competitive referral commissions and global task availability, users from Lagos to Abuja can participate in the digital economy using NGN. Registration is open to all international members looking to leverage social media for profit.</p>
+
+    <div class="country-grid">
+        <div class="country-card">
+            <h3>GLOBAL/NIGERIA</h3>
+            <a href="https://starhela.com/register.php?ref=LACER" class="action-link btn-gold"><i class="fas fa-globe"></i> GLOBAL REGISTRATION</a>
+            <a href="http://www.appcreator24.com/app3252066-0nctaw" class="action-link btn-outline"><i class="fas fa-link"></i> UNIVERSAL APP</a>
+            <a href="https://whatsapp.com/channel/0029Vb7f9n4LSmbiyVG6cc3h" class="action-link btn-wa"><i class="fab fa-whatsapp"></i> GLOBAL UPDATES</a>
+        </div>
+    </div>
+
+</div>
+
+<div id="status-bar">
+    <i class="fas fa-circle-notch fa-spin" style="color: #ffcc00;"></i> <span id="status-text"></span>
+</div>
+
+<script>
+    const events = [
+        "Uganda: Phiona just withdrew UGX 35,000",
+        "Kenya: Otieno received KSH 1,500 via M-Pesa",
+        "Tanzania: Hassan withdrew TSH 22,000 successfully",
+        "Nigeria: Emeka just earned NGN 5,000 referral bonus",
+        "System: Automated payouts currently active"
+    ];
+
+    function updateStatus() {
+        const bar = document.getElementById('status-bar');
+        const txt = document.getElementById('status-text');
+        const rand = events[Math.floor(Math.random() * events.length)];
+        
+        txt.innerText = rand;
+        bar.style.display = 'block';
+        
+        setTimeout(() => { bar.style.display = 'none'; }, 6000);
+    }
+
+    setInterval(updateStatus, 15000);
+    setTimeout(updateStatus, 3000);
+
+    document.addEventListener('contextmenu', e => e.preventDefault());
+</script>
+
+</body>
+</html>
 
